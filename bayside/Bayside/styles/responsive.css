@@ -1,0 +1,147 @@
+@charset "UTF-8";
+/* Simplify width and height calculations */
+html{
+	box-sizing: border-box;
+}
+*, *:before,
+*:after {
+	box-sizing:
+	inherit;
+}
+body {
+	color: #4B4B4B;
+	font-family: source-sans-pro;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1em;
+	background-color: #EFF5F7;
+}
+#wrapper {
+	width: 100%;
+	max-width: 1000px;
+	background-color: white;
+	position: relative;
+	display: inherit;
+	clear: both;
+	left: 5%;
+	margin: 0 auto;
+	right: 5%;
+}
+h1, h2 {
+	color: #1E1E1E;
+	font-style: normal;
+	font-weight: 400;
+}
+h1 {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-size: 2.5em;
+	text-align: center;
+	text-transform: uppercase;
+}
+h2 {
+	margin-top: 0.5em;
+	font-size: 2.25em;
+	font-weight: bold;
+	text-decoration: none;
+	margin-right: 0px;
+}
+nav   {
+	text-decoration: none;
+	background-color: #1e1e1e;
+	width: 100%;
+}
+#navlinks #navlinks li {
+	width: 96%;
+	margin: 0;
+	padding-bottom: 10px;
+	float: none;
+}
+#wrapper {
+}
+nav #navlinks a   {
+	text-decoration: none;
+	background-color: #1e1e1e;
+	color: white;
+	list-style-type: none;
+	text-align: center;
+}
+nav #navlinks    {
+	text-decoration: none;
+	background-color: #1e1e1e;
+	color: white;
+	list-style-type: none;
+	text-align: center;
+}
+header #navlinks #menulink a {
+	color: white;
+	text-decoration: none;
+	text-align: left;
+}
+header #navlinks #menulink  {
+	color: white;
+	text-decoration: none;
+	text-align: center;
+}
+nav {
+	font-weight: bold;
+	text-decoration: none;
+}
+main, aside {
+	margin-left: 4%;
+	margin-right: 4%;
+}
+#hero img {
+	max-width: 100%;
+	display: block;
+}
+figure {
+	width: 400px;
+	max-width: 92%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+figure img {
+	max-width: 92%;
+}
+figcaption {
+	display: block;
+	margin-top: 0.5em;
+	font-size: 0.75em;
+	text-transform: uppercase;
+}
+.grayscale {
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+}
+.grayscale:hover {
+	-webkit-filter: grayscale(0%);
+	filter: grayscale(0%);
+}
+#hero p {
+	color: #F58979;
+	font-weight: 600;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	border-bottom-width: 3px;
+	border-bottom-style: solid;
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-bottom: 20px;
+	margin-top: 10px;
+}
+footer {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #1E1E1E;
+	color: #FFFFFF;
+	font-size: 0.8em;
+	text-align: center;
+}
+#navlinks {
+}
+.center {
+}
